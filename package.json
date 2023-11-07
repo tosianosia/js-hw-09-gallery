@@ -1,0 +1,35 @@
+{
+  "name": "js-hw-09-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/tosianosia/js-hw-09-gallery",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /js-hw-09-gallery/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosianosia/js-hw-09-gallery.git"
+  },
+  "keywords": [],
+  "author": "Anatoliy Nosenko <nosia80@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tosianosia/js-hw-09-gallery/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
